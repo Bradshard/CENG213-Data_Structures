@@ -1,0 +1,11 @@
+Is stack empty? 1
+Stack: {6, 5}
+Is stack empty? 0
+Pop: 6
+Stack: {5}
+Pop: 5
+Stack: {}
+Is stack empty? 1
+Stack: {4}
+Pop: 4
+Is stack empty? 1

@@ -1,0 +1,14 @@
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+event4 < event5 (time): 1
+event5 < event4 (time): 0
+event4 < event6 (patientId): 1
+event6 < event4 (patientId): 0
+event4 < event7 (resourceId): 1
+event7 < event4 (resourceId): 0
+event4 < event8 (eventType): 0
+event8 < event4 (eventType): 1
+[TIME 100] Event Type: 4, Patient Id: 5, Resource Id: 1
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1

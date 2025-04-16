@@ -1,0 +1,7 @@
+[TIME 1] Event Type: 0, Patient Id: 0, Resource Id: -1
+[TIME 2] Event Type: 0, Patient Id: 1, Resource Id: -1
+[TIME 5] Event Type: 6, Patient Id: 0, Resource Id: -1
+[TIME 6] Event Type: 6, Patient Id: 1, Resource Id: -1
+[TIME 6] Event Type: 5, Patient Id: 1, Resource Id: -1
+Simulation finished.
+Monotonic Stack of Doctor 0 is {}

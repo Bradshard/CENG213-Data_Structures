@@ -1,0 +1,12 @@
+Is list empty? 1
+List length: 0
+Is list empty? 0
+List length: 3
+Remove front: [TIME 30] Event Type: 5, Patient Id: 3, Resource Id: 2
+List length: 2
+Remove back: [TIME 20] Event Type: 0, Patient Id: 10, Resource Id: -1
+List length: 1
+Remove front: [TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+Is list empty? 1
+List length: 0
+List length: 3

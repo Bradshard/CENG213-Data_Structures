@@ -1,0 +1,6 @@
+Is queue empty? 1
+Is queue empty? 0
+[TIME 5] Event Type: 5, Patient Id: 3, Resource Id: 2
+[TIME 10] Event Type: 4, Patient Id: 5, Resource Id: 1
+[TIME 15] Event Type: 2, Patient Id: 12, Resource Id: 3
+[TIME 20] Event Type: 0, Patient Id: 10, Resource Id: -1

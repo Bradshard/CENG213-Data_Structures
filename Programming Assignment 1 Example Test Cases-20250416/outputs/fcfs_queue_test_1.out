@@ -1,0 +1,11 @@
+part 1: Is the queue empty initially? 1
+part 2: Enqueue patients 101, 102, and 103
+part 3: Is the queue empty? 0
+part 4: Length of the queue (Expected: 3): 0
+part 4: Dequeue patients in order
+Dequeued patient: 101
+Dequeued patient: 102
+part 5: Is the queue empty? 0
+part 6: Dequeue the last patient
+Dequeued patient: 103
+part 7: Is the queue empty? 1
