@@ -1,0 +1,121 @@
+# Doxyfile.in for FileSystem project
+# This file will be configured by CMake to generate the actual Doxyfile
+#
+# Enhanced configuration for comprehensive object-oriented graphs
+# Includes:
+#  - Inheritance diagrams
+#  - Collaboration diagrams
+#  - Class hierarchy visualization
+#  - Dependency graphs
+#  - Interactive SVG diagrams
+#
+# Usage: Build with 'make docs' after CMake configuration
+
+# Project information
+PROJECT_NAME           = "In-Memory File System"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Tree-Based In-Memory File System Implementation"
+OUTPUT_DIRECTORY       = @DOXYGEN_OUTPUT_DIR@
+
+# Input files
+INPUT                  = @DOXYGEN_INPUT_DIR@/src \
+                         @DOXYGEN_INPUT_DIR@/include
+FILE_PATTERNS          = *.h \
+                         *.cpp
+RECURSIVE              = YES
+
+# Output options
+GENERATE_HTML          = YES
+GENERATE_LATEX         = YES
+GENERATE_XML           = YES
+GENERATE_DOCBOOK       = NO
+GENERATE_RTF           = NO
+HTML_OUTPUT            = html
+XML_OUTPUT             = xml
+HTML_EXTRA_STYLESHEET  = 
+HTML_TIMESTAMP         = YES
+HTML_DYNAMIC_MENUS     = YES
+
+# Diagram output options
+MSCGEN_GRAPH           = YES
+DIA_PATH               =
+
+# Preprocessing
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PACKAGE        = YES
+EXTRACT_STATIC         = YES
+
+# Diagrams and graphs
+HAVE_DOT               = YES
+UML_LOOK               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+COLLABORATION_GRAPH    = YES
+CLASS_GRAPH            = YES
+INHERITANCE_GRAPH      = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+MAX_DOT_GRAPH_DEPTH    = 0
+GROUP_GRAPHS           = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+DIRECTORY_GRAPH        = YES
+GRAPHICAL_HIERARCHY    = YES
+TEMPLATE_RELATIONS     = YES
+
+# Source browsing
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# Document what is commented
+JAVADOC_AUTOBRIEF      = YES
+QT_AUTOBRIEF           = YES
+MULTILINE_CPP_IS_BRIEF = NO
+INHERIT_DOCS           = YES
+
+# Classes and members
+EXTRACT_LOCAL_CLASSES  = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+CLASS_DIAGRAMS         = YES
+
+# Customize UML and graphs
+DOT_GRAPH_MAX_NODES    = 100
+DOT_TRANSPARENT        = YES
+DOT_MULTI_TARGETS      = YES
+GENERATE_LEGEND        = YES
+DOT_CLASS_GRAPH        = YES 
+DOT_NAMESPACE_GRAPH    = YES
+
+# Graph customization
+UML_LIMIT_NUM_FIELDS   = 50
+TEMPLATE_RELATIONS     = YES
+LOOKUP_CACHE_SIZE      = 2
+
+# Special comments
+SPECIAL_ONLY_TEE       = NO
+
+# Graph styling and appearance
+DOT_NUM_THREADS        = 0
+DOT_FONTNAME           = Helvetica
+DOT_FONTSIZE           = 10
+GROUP_GRAPHS           = YES
+DOT_CLEANUP            = YES
+
+# Diagram colors and styles
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+HTML_DYNAMIC_SECTIONS  = YES
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = YES
+ENUM_VALUES_PER_LINE   = 4
+LAYOUT_FILE            =
+
+# Extra output
+GENERATE_TREEVIEW      = YES
+SEARCHENGINE           = YES
